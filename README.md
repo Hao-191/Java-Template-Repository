@@ -40,7 +40,7 @@ mvn test
 ```
 
 ### Continuous Integration
-This project is configured with CircleCI for automated building and testing. Configuration details can be found in .circleci/config.yml.
+This project is configured with CircleCI for automated building and testing. Configuration details can be found in `.circleci/config.yml`.
 
 ### Code Formatting
 To ensure consistency in code style, the project uses the formatter-maven-plugin. Run the following command to format your code:
