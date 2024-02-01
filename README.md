@@ -52,8 +52,46 @@ mvn formatter:format
 ### Contributing
 Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
 
-## component specification
-(working on it)
+
+## Component Specification
+This Component Specification part could serve as a template for your reference when you want to start a new back-end project.
+
+### Classes and Interfaces
+
+- Implements the core functionality, including methods `methodA` and `methodB` for processing data.
+
+### Modules
+
+- **Data Processing Module**: Handles data validation and transformation.
+  - Dependencies: Utilizes `DataValidator` and `DataTransformer` classes.
+
+### Services
+
+- **Web Service**: Exposes RESTful endpoints for external communication.
+  - Endpoints:
+    - `GET /api/resource`: Fetches resources.
+    - `POST /api/resource`: Creates a new resource.
+
+### Data Models
+
+- `ResourceModel.java`: Represents the resource entity with fields `id`, `name`, and `description`.
+
+### Configuration and Dependencies
+
+- Maven dependencies are specified in `pom.xml`, including Spring Boot, JUnit, and Mockito for testing.
+
+### Design Patterns
+
+- Utilizes the MVC pattern.
+
+### Security
+
+- Implements basic authentication for web service access.
+
+### Performance Considerations
+
+- Caching implemented in `ResourceService` to enhance performance.
+
 
 ## Issue Template
 
