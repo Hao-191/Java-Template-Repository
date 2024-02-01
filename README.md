@@ -81,8 +81,8 @@ Please ensure your pull request adheres to the following guidelines:
 - **Screenshots/Output**: Include any relevant screenshots or output demonstrating the changes (if applicable).
 - **Additional Notes**: Any further comments or notes for the reviewers.
 
-## Open-source License 
-(working on it)
+## LICENSE 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Circle CI Build Status
 
