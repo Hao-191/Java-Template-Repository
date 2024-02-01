@@ -1,4 +1,4 @@
-# Java-Template-Repository
+# Java-Maven-Template-Repository
 
 This project utilizes Java as the primary programming language, leveraging OpenJDK 17.0 as the runtime environment. It is structured around Maven for dependency management and project lifecycle processes. The project adheres to best practices with JUnit for testing, CircleCI for continuous integration, and incorporates the formatter-maven-plugin to enforce code style consistency.
 
