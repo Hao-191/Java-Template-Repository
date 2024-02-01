@@ -8,7 +8,7 @@ This project utilizes Java as the primary programming language, leveraging OpenJ
 - **Runtime Environment**: [OpenJDK 17.0](https://www.oracle.com/java/technologies/downloads/#java17)
 - **Testing Framework**: [JUnit 4](https://junit.org/junit4/)
 - **Continuous Integration**: [CircleCI](https://circleci.com/)
-- **Static Tool**: UNDECIDED
+- **Static Tool**: (working on it)
 - **Code Formatting**: [formatter-maven-plugin](https://code.revelc.net/formatter-maven-plugin/)
 - **Package Manager**: [Apache Maven Project](https://maven.apache.org/index.html)
 
@@ -52,7 +52,8 @@ mvn formatter:format
 ### Contributing
 Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
 
-## component specification (working)
+## component specification
+(working on it)
 
 ## Issue Template
 
@@ -79,8 +80,10 @@ Please ensure your pull request adheres to the following guidelines:
   - [ ] I have added tests that prove my fix is effective or that my feature works.
 - **Screenshots/Output**: Include any relevant screenshots or output demonstrating the changes (if applicable).
 - **Additional Notes**: Any further comments or notes for the reviewers.
-10. appropriate open-source license
 
-Circle CI Build Status:
+## Open-source License 
+(working on it)
+
+## Circle CI Build Status
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main.svg?style=svg&circle-token=2c19527cd3f0e1b351c32ad7862299196d120a5d)](https://dl.circleci.com/status-badge/redirect/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main)
