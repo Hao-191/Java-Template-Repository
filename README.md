@@ -2,6 +2,10 @@
 
 This project utilizes Java as the primary programming language, leveraging OpenJDK 17.0 as the runtime environment. It is structured around Maven for dependency management and project lifecycle processes. The project adheres to best practices with JUnit for testing, CircleCI for continuous integration, and incorporates the formatter-maven-plugin to enforce code style consistency.
 
+## Circle CI Build Status
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main.svg?style=svg&circle-token=2c19527cd3f0e1b351c32ad7862299196d120a5d)](https://dl.circleci.com/status-badge/redirect/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main)
+
 ## Features
 
 - **Programming Language**: Java
@@ -29,20 +33,25 @@ cd <project-directory>
 ```
 
 ### Build the project with Maven:
+
 ```shell
 mvn clean install
 ```
 
 ### Running Tests
+
 Execute tests with Maven:
+
 ```shell
 mvn test
 ```
 
 ### Continuous Integration
+
 This project is configured with CircleCI for automated building and testing. Configuration details can be found in `.circleci/config.yml`.
 
 ### Code Formatting
+
 To ensure consistency in code style, the project uses the formatter-maven-plugin. Run the following command to format your code:
 
 ```shell
@@ -50,10 +59,11 @@ mvn formatter:format
 ```
 
 ### Contributing
+
 Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
 
-
 ## Component Specification
+
 This Component Specification part could serve as a template for your reference when you want to start a new back-end project.
 
 ### Classes and Interfaces
@@ -92,7 +102,6 @@ This Component Specification part could serve as a template for your reference w
 
 - Caching implemented in `ResourceService` to enhance performance.
 
-
 ## Issue Template
 
 When opening an issue, please include the following information for better resolution:
@@ -119,9 +128,6 @@ Please ensure your pull request adheres to the following guidelines:
 - **Screenshots/Output**: Include any relevant screenshots or output demonstrating the changes (if applicable).
 - **Additional Notes**: Any further comments or notes for the reviewers.
 
-## LICENSE 
+## LICENSE
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Circle CI Build Status
-
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main.svg?style=svg&circle-token=2c19527cd3f0e1b351c32ad7862299196d120a5d)](https://dl.circleci.com/status-badge/redirect/circleci/KYnFbY2qNNDLwRPNicQYzN/JCe2pdy1WyY4eU5bckY53j/tree/main)
