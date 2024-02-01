@@ -23,5 +23,6 @@
 hs_err_pid*
 replay_pid*
 
-# all files under target folder
+# all files under target and .vscode folder
 target/
+.vscode/
