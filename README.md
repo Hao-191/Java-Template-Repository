@@ -1,3 +1,3 @@
 # Java-Template-Repository
 
-testing
+test
