@@ -1,7 +1,5 @@
 # Java-Template-Repository
 
-# Maven Project Template
-
 This project utilizes Java as the primary programming language, leveraging OpenJDK 17.0 as the runtime environment. It is structured around Maven for dependency management and project lifecycle processes. The project adheres to best practices with JUnit for testing, CircleCI for continuous integration, and incorporates the formatter-maven-plugin to enforce code style consistency.
 
 ## Features
@@ -30,28 +28,28 @@ git clone <repository-url>
 cd <project-directory>
 ```
 
-Build the project with Maven:
+### Build the project with Maven:
 ```shell
 mvn clean install
 ```
 
-Running Tests
+### Running Tests
 Execute tests with Maven:
 ```shell
 mvn test
 ```
 
-Continuous Integration
+### Continuous Integration
 This project is configured with CircleCI for automated building and testing. Configuration details can be found in .circleci/config.yml.
 
-Code Formatting
+### Code Formatting
 To ensure consistency in code style, the project uses the formatter-maven-plugin. Run the following command to format your code:
 
 ```shell
 mvn formatter:format
 ```
 
-Contributing
+### Contributing
 Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
 
 ## component specification (working)
