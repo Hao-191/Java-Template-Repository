@@ -28,15 +28,18 @@ Clone the project and navigate into the project directory:
 ```shell
 git clone <repository-url>
 cd <project-directory>
+```
 
 Build the project with Maven:
 ```shell
 mvn clean install
+```
 
 Running Tests
 Execute tests with Maven:
 ```shell
 mvn test
+```
 
 Continuous Integration
 This project is configured with CircleCI for automated building and testing. Configuration details can be found in .circleci/config.yml.
@@ -45,8 +48,9 @@ Code Formatting
 To ensure consistency in code style, the project uses the formatter-maven-plugin. Run the following command to format your code:
 
 ```shell
-Copy code
 mvn formatter:format
+```
+
 Contributing
 Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
 
