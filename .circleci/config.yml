@@ -18,6 +18,9 @@ jobs:
           name: run formatter
           command: mvn formatter:format
       - run:
+          name: validate formatter
+          command: mvn formatter:validate
+      - run:
           command: mvn verify
       - store_test_results:
           path: target/surefire-reports
