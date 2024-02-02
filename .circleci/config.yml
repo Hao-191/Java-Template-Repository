@@ -15,11 +15,14 @@ jobs:
       - restore_cache:
           key: cache-{{ checksum "/tmp/CIRCLECI_CACHE_KEY" }}
       - run:
-          name: run formatter
+          name: Code formatting
           command: mvn formatter:format
       - run:
-          name: validate formatter
+          name: Validate formatter
           command: mvn formatter:validate
+      - run:
+          name: PMD check for static analysis
+          command: mvn pmd:check
       - run:
           command: mvn verify
       - store_test_results:

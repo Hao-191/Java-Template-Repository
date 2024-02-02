@@ -12,7 +12,7 @@ This project utilizes Java as the primary programming language, leveraging OpenJ
 - **Runtime Environment**: [OpenJDK 17.0](https://www.oracle.com/java/technologies/downloads/#java17)
 - **Testing Framework**: [JUnit 4](https://junit.org/junit4/)
 - **Continuous Integration**: [CircleCI](https://circleci.com/)
-- **Static Tool**: (working on it)
+- **Static Tool**: [PMD](https://maven.apache.org/plugins/maven-pmd-plugin/index.html)
 - **Code Formatting**: [formatter-maven-plugin](https://code.revelc.net/formatter-maven-plugin/)
 - **Package Manager**: [Apache Maven Project](https://maven.apache.org/index.html)
 
