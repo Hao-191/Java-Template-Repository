@@ -1,7 +1,9 @@
 package com.example;
 
+import com.example.logger.Log;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Log.debug("Hello World!");
     }
 }
