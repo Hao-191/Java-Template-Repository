@@ -1,7 +1,10 @@
 package com.example;
 
+import com.example.service.MessageService;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MessageService service = new MessageService();
+        System.out.println(service.fetchMessage());
     }
 }
