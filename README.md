@@ -53,6 +53,12 @@ Execute tests with Maven:
 mvn test
 ```
 
+Execute integration tests with Maven:
+
+```shell
+mvn failsafe:integration-test
+```
+
 ### Continuous Integration
 
 This project is configured with CircleCI for automated building and testing. Configuration details can be found in `.circleci/config.yml`.
@@ -67,7 +73,7 @@ mvn formatter:format
 
 ### Contributing
 
-Contributions are welcome! Please review the contributing guidelines and code of conduct before making a contribution.
+Contributions are welcome! Please refer to `CONTRIBUTING.md` for contribution guidelines.
 
 ## Component Specification
 
