@@ -38,6 +38,13 @@ cd <project-directory>
 mvn clean install
 ```
 
+### Execute jar file:
+
+```shell
+java -jar <location to jar file>
+```
+Replace the location of the generated jar file (usually `target/demo-1.0-SNAPSHOT.jar`)
+
 ### Running Tests
 
 Execute tests with Maven:

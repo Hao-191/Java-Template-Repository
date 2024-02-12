@@ -1,11 +1,9 @@
 package com.example;
 
-import com.example.service.MessageService;
+import com.example.logger.Log;
 
 public class Main {
     public static void main(String[] args) {
-        MessageService service = new MessageService();
-        System.out.println(service.fetchMessage());
-
+        Log.debug("Hello World!");
     }
 }

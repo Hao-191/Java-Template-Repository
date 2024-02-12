@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.logger.Log;
+
 /**
  * Hello world!
  *
@@ -7,6 +9,6 @@ package com.example;
 public class App {
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+        Log.debug("Hello World!");
     }
 }
